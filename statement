@@ -1,0 +1,32 @@
+#if statement
+#Initializing two variables 
+a=10
+b=20
+
+#Check whether they are equal 
+if [ $a == $b ]
+then
+  echo "a is equal to b"
+fi
+
+#Check whether they are not equal
+if [ $a != $b ]
+then
+   echo "a is not equal to b"
+fi
+
+
+#if .else staterment
+#Initializing two variables
+a=20
+b=20
+
+if [ $a == $b ]
+then  
+   #if theyare equal then
+print this 
+    echo "a is equal to b"
+else 
+   #else ptint this
+   echo "a is not equal to b"
+fi 
